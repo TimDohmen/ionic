@@ -2,6 +2,7 @@
   <div id="container">
     <strong>{{ name }}</strong>
     <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <h3>  {{details}}</h3>
   </div>
 </template>
 
@@ -10,7 +11,8 @@
 export default {
   name: 'ExploreContainer',
   props: {
-    name: String
+    name: String,
+    details: String
   }
 }
 </script>
